@@ -56,10 +56,15 @@
 
 $git status
 
+# 워킹디렉토리의 파일은 Tracked / Untracked 로 나눠지며, 새로 만드는 파일은 git에서 추적하지 않기 때문에 Untracked 상태이다.
+
+$git add
+# Untracked 파일을 git에서 추적하는 명령어 + 수정된 파일을 stage 상태로 바꿔주는 명령어
+
+# add된 Tracked 파일은 Unmodified, Modified, Staged의  3개의 상태로 나눠진다.
+# modified는 수정된 파일이 Tracked 상태이지만, Staged된 상태가 아니기에 git add 명령을 실행해야함을 나타낸다.
+
 ```
 
-
-
-1. 
 
    
