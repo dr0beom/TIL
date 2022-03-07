@@ -70,6 +70,16 @@ $git add
 ```bash
 $ git commit -m "message"
 # 를 통해 staging area에 있는 것들을 commit할 수 있다.
+
+# 실수로 message 입력없이 git commit 만 한 경우, esc를 누른후 :wq enter을 하면 빠져나올 수 있다.
+
+$ git log
+# 를 통해 commit log를 확인할 수 있으며, q 로 빠져나올 수 있다.
+```
+
+- $git push 를 통해 commit 된 파일을 github에 반영
+```bash
+$git push
 ```
 
 ## 기타 정보
