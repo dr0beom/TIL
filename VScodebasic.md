@@ -38,7 +38,7 @@
    $git remote rm origin
    ```
 
-3. 원격 저장소에 업로드
+   원격 저장소에 업로드
 
 ​	실습때 작성한 TIL파일을 Github 원격 저장소에 업로드
 
@@ -59,7 +59,7 @@ add된 Tracked 파일은 Unmodified, Modified, Staged의  3개의 상태로 나�
 modified는 수정된 파일이 Tracked 상태이지만, Staged된 상태가 아니기에 git add 명령을 실행해야함을 나타낸다.
 
 ```
-- $git add 의 경우 staging area에 모아놓는 역할일 뿐, commit을 하기 전까지는 Git directory에 영향을 미치지 않는다.
+  $git add 의 경우 staging area에 모아놓는 역할일 뿐, commit을 하기 전까지는 Git directory에 영향을 미치지 않는다.
 
 ```bash
 $git commit -m "message"
@@ -71,7 +71,7 @@ $git log
 를 통해 commit log를 확인할 수 있으며, q 로 빠져나올 수 있다.
 ```
 
-- $git push 를 통해 commit 된 파일을 github에 반영
+ - $git push 를 통해 commit 된 파일을 github에 반영
 ```bash
 $git push
 ```
