@@ -65,6 +65,19 @@ $git add
 # modified는 수정된 파일이 Tracked 상태이지만, Staged된 상태가 아니기에 git add 명령을 실행해야함을 나타낸다.
 
 ```
+- $git add 의 경우 staging area에 모아놓는 역할일 뿐, commit을 하기 전까지는 Git directory에 영향을 미치지 않는다.
 
+```bash
+$ git commit -m "message"
+# 를 통해 staging area에 있는 것들을 commit할 수 있다.
+```
 
-   
+## 기타 정보
+
+```bash
+# 이름바꾸기
+# 탐색기의 이름을 우클릭한 후 변경이 가능하지만, #git status를 해보면 deleted로 파일이 뜨는 것을 볼 수 있다. 이 경우 
+$ git rm "파일이름"
+# 을 실행하여 삭제해준다면 git status 결과 renamed 되었음을 확인할 수 있다.
+```
+
